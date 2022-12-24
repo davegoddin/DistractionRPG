@@ -1,0 +1,32 @@
+.item-submit-button
+{
+    fill: rgb(90, 187, 35);
+    cursor: pointer;
+    height: 1rem;
+    width: 1rem;
+}
+
+
+.distraction-list-item {
+    display: grid;
+    grid-template-columns: auto 1rem;
+    column-gap: 1rem;
+    justify-content: space-between;
+}
+
+/* .distraction-list-item:nth-child(2n)
+{
+    background-color: aqua;
+}
+
+.item-url {
+    
+} */
+
+.item-remove-button {
+    cursor: pointer;
+    fill: red;
+    height: 1rem;
+    width: 1rem;
+    
+}

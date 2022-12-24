@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "DistractionRPG",
+    "version": "1.0",
+    "description": "Gamifying time spent away from distracting websites",
+    "icons": {
+        "48": "icons/sqrl.png"
+    },
+
+    "browser_action": {
+        "default_icon": "icons/sqrl.png",
+        "default_title": "Distraction RPG",
+        "default_popup": "popup/popup.html"
+    },
+
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+
+    "background": {
+        "scripts": ["utility/storage.js","background.js"]
+    }
+
+}
